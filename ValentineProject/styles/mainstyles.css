@@ -1,0 +1,54 @@
+.button-container{
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    align-items: center;
+}
+h1{
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.css-button{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: pink;
+    white-space: nowrap;
+    width: 180px;
+    font-size:  18px;
+    color: black;
+    font-family: 'Konkhmer Sleokchher', system-ui;
+    transition: opacity 0.3s;
+}
+.css-button:active{
+    background-color: darkgray;
+    opacity: 0.8;
+}
+.img-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 500px;
+     margin-bottom: 50px;
+     margin-top: 50px;
+}
+.nav-container{
+    display: flex;
+    column-gap: 45px;
+}
+#img{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+}
+.css-span{
+    text-align: center;
+    font-size: 45px;
+    white-space: nowrap;
+}
+.js-span-container{
+  display: flex;
+   
+}

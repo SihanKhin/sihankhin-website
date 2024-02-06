@@ -1,0 +1,12 @@
+body{
+background-image: url(https://www.bu.edu/files/2022/02/feat-iStock-1186052670.jpg);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
